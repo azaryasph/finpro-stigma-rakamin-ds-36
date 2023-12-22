@@ -363,11 +363,11 @@ A penalty outlined in the previously executed contract agreement will be imposed
 
 ## Acknowledgements
 
-I would like to express my deepest appreciation to Rakamin Academy for providing the opportunity to work on this exciting project. The experience and knowledge I gained throughout this journey have been invaluable.
+We would like to express our deepest appreciation to Rakamin Academy for providing the opportunity to work on this exciting project. The experience and knowledge we gained throughout this journey have been invaluable.
 
-Special thanks to my mentor, Mr. Ridho Aryo Pratama, for his continuous guidance, patience, and support. His insights and wisdom have been instrumental in the successful completion of this project.
+Special thanks to our mentor, Mr. Ridho Aryo Pratama, for his continuous guidance, patience, and support. His insights and wisdom have been instrumental in the successful completion of this project.
 
-Finally, I would like to thank everyone who was involved in this project and those who provided their support and encouragement throughout my journey.
+Finally, we would like to thank everyone who was involved in this project and those who provided their support and encouragement throughout our journey.
 
 <br>
 <p align="center">
