@@ -1,9 +1,10 @@
 # 🚀 Stage 2: Data Preprocessing of the STIGMA Project
 
 <br>
+<p align="center">
 <img src="https://user-images.githubusercontent.com/74038190/221352995-5ac18bdf-1a19-4f99-bbb6-77559b220470.gif" width="400">
-<br>
-<br>
+</p>
+
 
 This is the second stage of the STIGMA project, focusing on data preprocessing of the STIGMA dataset. The main goal of this stage is to clean and transform the raw data to make it suitable for data analysis and modeling. 🧹🔄
 
