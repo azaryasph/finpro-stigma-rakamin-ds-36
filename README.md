@@ -114,17 +114,17 @@ The [`Stage_1_EDA_STIGMA.ipynb`](command:_github.copilot.openRelativePath?%5B%22
 <br>
 
 <p align = "center"> 
-    <img src="./assets/img/EDA 3.jpg" width="500">
+    <img src="./assets/img/EDA 3.jpg" width="1000">
 </p>
 <br>
 
 <p align = "center"> 
-    <img src="./assets/img/EDA.png" width="500">
+    <img src="./assets/img/EDA.png" width="1000">
 </p>
 <br>
 
 <p align = "center"> 
-    <img src="./assets/img/EDA 2.jpg" width="500">
+    <img src="./assets/img/EDA 2.jpg" width="1000">
 </p>
 
 <br>
