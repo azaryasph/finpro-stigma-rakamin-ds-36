@@ -47,13 +47,13 @@ jupyter notebook Final_Project_STIGMA.ipynb
 ## Problem
 Masalah utama perusahaan dari dataset ini adalah Perusahaan Mengadakan Training secara gratis terhadap kandidat Data Scientist yang akan bekerja di perusahaannya setelah training, namun setelah diberikan training gratis dari total 19,158 kandidat, 4,777(24.9%)kandidat tidak melanjutkan bekerja di perusahaan setelah training, yang menyebabkan perusahaan rugi biaya training dan waktu.
 
-## Goals
+## 🎯 Goals 
 Maka dari itu kami disini Tim STIGMA bertujuan untuk mengurangi Training cost
 
-## Obective
+## 🏁 Obective 
 Objektif kami membuat model prediktif machine learning yang dapat memprediksi kandidat karakteristik kandidat seperti apa yang cenederung keluar dari perusahaan setelah diberikan training.
 
-## Business Metrics
+## 🧩 Business Metrics 
 Bisnis metrics yang kami gunakan adalah Turnover Rate(Main metrics) dan Training Cost Lost (Secondary Metrics).
 <br>
 <br>
@@ -72,13 +72,13 @@ The [`Stage_1_EDA_STIGMA.ipynb`](command:_github.copilot.openRelativePath?%5B%22
 <br>
 
 ## 📊 About Dataset 
-### Dataset consist :
+### 📋Dataset consist :
 - 19,158 rows and 14 columns
 - The target column in this dataset is "target"
 - Dataset contains missing values
 - The dataset does not have duplicate values
 
-### 📌 Features
+### 📝Features
 
 | Feature | Explanation |
 |---------|-------------|
@@ -97,7 +97,7 @@ The [`Stage_1_EDA_STIGMA.ipynb`](command:_github.copilot.openRelativePath?%5B%22
 | training_hours | Training hours completed |
 | target | 0 – Not looking for job change, 1 – Looking for a job change |
 
-### Missing Values Columns
+### ❗Missing Values Columns
 
 | Column Name | Missing Values Percentage |
 |-------------|---------------------------|
@@ -286,7 +286,7 @@ The improved recall of our GradientBoosting Model as a result of hyperparameter 
 
 <br>
 
-## Feature Importance
+## 🔑 Feature Importance 
 Based on the GradientBoosting model Feature Importance:
 
 <p align = "center"> 
@@ -299,7 +299,7 @@ The top 3 importance feature is :
 - company_size_category
 - company_type
 
-## Business Impact Simulation
+## 📝 Business Impact Simulation  
 <p align = "center"> 
     <img src="./assets/img/bisnis.jpg" width="1000">
 </p>
@@ -322,7 +322,7 @@ Assuming, however, that half of those who consider alternative opportunities fol
 Assuming a per-person training cost of $257, the projected waste of training funds prior to the implementation of the model amounted to $1.2 million.
 **We were able to reduce the total cost to approximately $690K after implementing the model, representing a substantial discount of $531,990.**
 
-## Business Recommendation
+## ✅ Business Recommendation
 <br>
 <p align = "center"> 
     <img src="./assets/img/recom.jpg" width="1000">
@@ -361,7 +361,7 @@ A penalty outlined in the previously executed contract agreement will be imposed
 
 -----
 
-## Acknowledgements
+## Acknowledgements🌟
 
 We would like to express our deepest appreciation to Rakamin Academy for providing the opportunity to work on this exciting project. The experience and knowledge we gained throughout this journey have been invaluable.
 
