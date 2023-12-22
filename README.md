@@ -1,5 +1,10 @@
 # 🚀 Stage 3: Modelling of the STIGMA Project
 
+<br>
+<p align="center">
+<img src="https://media0.giphy.com/media/Y4PkFXkfTeEKqGBBsC/giphy.gif?cid=ecf05e47numetagrmbl2rxf6x0lpcjgq1s340dfdh1oi0x9w&ep=v1_gifs_related&rid=giphy.gif&ct=g" width="420">
+</p>
+
 This is the third stage of the STIGMA project, focusing on the modelling of the STIGMA dataset. The main goal of this stage is to build and evaluate models that can predict the target variable based on the preprocessed data. 🎯
 
 The [`Stage_3_Modelling_STIGMA.ipynb`](command:_github.copilot.openRelativePath?%5B%22Stage_3_Modelling_STIGMA.ipynb%22%5D "Stage_3_Modelling_STIGMA.ipynb") notebook contains the modelling steps, where we build, train, and evaluate various machine learning models. This stage is crucial for finding the best model that can accurately predict the target variable. 📊
@@ -61,6 +66,7 @@ The improved recall of our GradientBoosting Model as a result of hyperparameter 
 | Model Name | Recall Train | Recall Test | AUC Train | AUC Test |
 |------------|--------------|-------------|-----------|----------|
 | GradientBoosting | **84** | **85** | **76** | **77** |
+
 
 
 This stage is a part of the Rakamin Academy's FinPro program. 🎓
