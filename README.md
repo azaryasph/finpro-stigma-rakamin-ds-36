@@ -38,11 +38,15 @@ jupyter notebook Stage_1_EDA_STIGMA.ipynb
 ```
 ## 📝 Usage/Examples
 
-Provide examples on how to use your project. For example, you can show how to run your `Stage_1_EDA_STIGMA.ipynb` notebook:
+To use this project, you need to run the `Stage_1_EDA_STIGMA.ipynb` notebook. This notebook contains the first stage of the project, which includes the exploratory data analysis (EDA).
+
+Here's how to run the notebook:
 
 ```bash
 jupyter notebook Stage_1_EDA_STIGMA.ipynb
 ```
+---
+<br>
 
 ## 📊 About Dataset 
 ### Dataset consist :
