@@ -6,7 +6,7 @@ The [`Stage_3_Modelling_STIGMA.ipynb`](command:_github.copilot.openRelativePath?
 
 Key steps in this last stage include:
 
-## 1. **Model Building**: 🏗️<br>
+## 1. **Models**: 🏗️<br>
 Due to the fact that a significant portion of our categorical data is ordinal, we have opted to implement a tree-based model, including the following: <br>
 - **Decision Tree 🌳**
 - **Random Forest 🌳🌳🌳**
@@ -14,13 +14,11 @@ Due to the fact that a significant portion of our categorical data is ordinal, w
 - **XGBoost 🌳🤖🌳**
 - **GradientBoosting 🌳🎄🌳**<br> 
 
-## 2. **Model Training**: 🏋️‍♀️<br>
+## 2. **Model Training and Evaluation**: 🏋️‍♀️🎯<br>
 Several of the models that we have identified as potential uses are subsequently trained using the available train data.
+<br>
 
-## 3. **Model Evaluation**: 🎯<br>
 In this modeling, the evaluation metrics that are prioritized are AUC and Recall. Recall is a critical metric in our pursuit to minimize False Negative model predictions, which result in financial losses for the company due to training expenses. AUC, on the other hand, signifies the model's ability to distinguish between positive and negative labels effectively; thus, we aim to identify the model that achieves the highest stable recall and test scores for every iteration.
-
-## 4. **Model Selection**: 🥇<br>
 
 ### Model Results
 | Model Name | Recall Train | Recall Test | AUC Train | AUC Test |
@@ -29,6 +27,15 @@ In this modeling, the evaluation metrics that are prioritized are AUC and Recall
 | Random Forest | 83 | 67 | 87 | 73 |
 | AdaBoost | 70 | 71 | 76 | 77 |
 | XGBoost | 81 | 72 | 84 | 76 | 
+| GradientBoosting | 80 | 79 | 79 | 78 |
+
+We discovered that the GradientBoosting Model with the highest recall test (79%) and train (80%), stability compared to other models. RandomizedSearch CV and Learning Curve analysis are utilized to determine the optimal hyperparameters for the GradientBoosting model in order to enhance the model's performance :
+
+## 4. **Model Selection**: 🥇<br>
+
+### Model Results
+| Model Name | Recall Train | Recall Test | AUC Train | AUC Test |
+|------------|--------------|-------------|-----------|----------|
 | GradientBoosting | **80** | **79** | **79** | **78** |
 
 We discovered that the GradientBoosting Model with the highest recall test (79%) and train (80%), stability compared to other models. RandomizedSearch CV and Learning Curve analysis are utilized to determine the optimal hyperparameters for the GradientBoosting model in order to enhance the model's performance :
