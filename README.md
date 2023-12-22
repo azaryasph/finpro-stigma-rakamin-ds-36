@@ -20,14 +20,14 @@ This project requires Python and the following Python libraries installed:
 - Seaborn
 - Scipy
 - sklearn
-- imblearn
+- Imbalanced-learn
 
 If you don't have Python installed yet, it's recommended that you install [the Anaconda distribution](https://www.anaconda.com/distribution/) of Python, which already has the above packages and more included.
 
 To install the Python libraries, you can use pip:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scipy sklearn imblearn
+pip install numpy pandas matplotlib seaborn scipy sklearn imbalanced-learn
 ```
 To run the Jupyter notebook, you also need to have Jupyter installed. If you installed Python using Anaconda, you already have Jupyter installed. If not, you can install it using pip:
 
@@ -41,7 +41,9 @@ jupyter notebook Stage_2_Preprocessing_STIGMA.ipynb
 ```
 ## 📝 Usage/Examples
 
-Provide examples on how to use your project. For example, you can show how to run your `Stage_2_Preprocessing_STIGMA.ipynb` notebook:
+To use this project, you need to run the `Stage_2_Preprocessing_STIGMA.ipynb` notebook. This notebook contains the second stage of the project, which includes the preprocessing of the STIGMA dataset.
+
+Here's how to run the notebook:
 
 ```bash
 jupyter notebook Stage_2_Preprocessing_STIGMA.ipynb
