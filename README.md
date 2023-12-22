@@ -1,4 +1,4 @@
-# 🚀 Stage 2: Data Preprocessing of the STIGMA Project
+# ⚙️ Stage 2: Data Preprocessing of the STIGMA Project
 
 <br>
 <p align="center">
