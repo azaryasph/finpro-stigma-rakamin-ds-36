@@ -9,7 +9,47 @@ This is the third stage of the STIGMA project, focusing on the modelling of the 
 
 The [`Stage_3_Modelling_STIGMA.ipynb`](command:_github.copilot.openRelativePath?%5B%22Stage_3_Modelling_STIGMA.ipynb%22%5D "Stage_3_Modelling_STIGMA.ipynb") notebook contains the modelling steps, where we build, train, and evaluate various machine learning models. This stage is crucial for finding the best model that can accurately predict the target variable. 📊
 
-Key steps in this last stage include:
+## 📚 Installation
+
+This project requires Python and the following Python libraries installed:
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scipy
+- Sklearn
+- Imbalanced-learn
+
+If you don't have Python installed yet, it's recommended that you install [the Anaconda distribution](https://www.anaconda.com/distribution/) of Python, which already has the above packages and more included.
+
+To install the Python libraries, you can use pip:
+
+```bash
+pip install numpy pandas matplotlib seaborn scipy sklearn imbalanced-learn
+```
+To run the Jupyter notebook, you also need to have Jupyter installed. If you installed Python using Anaconda, you already have Jupyter installed. If not, you can install it using pip:
+```bash
+pip install jupyter
+```
+
+Once you have Python and the necessary libraries, you can run the project using Jupyter Notebook:
+```bash
+jupyter notebook Stage_3_Modelling_STIGMA.ipynb
+```
+## 📝 Usage/Examples
+
+To use this project, you need to run the `Stage_3_Modelling_STIGMA.ipynb` notebook. This notebook contains the final stage of the project, which includes the implementation of a tree-based model.
+
+Here's how to run the notebook:
+
+```bash
+jupyter notebook Stage_3_Modelling_STIGMA.ipynb
+```
+---
+<br>
+
+**Key steps in this last stage include:**
 
 ## 1. **Models**: 🏗️<br>
 Due to the fact that a significant portion of our categorical data is ordinal, we have opted to implement a tree-based model, including the following: <br>
