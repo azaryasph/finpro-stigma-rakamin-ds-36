@@ -31,7 +31,7 @@ In this modeling, the evaluation metrics that are prioritized are AUC and Recall
 
 We discovered that the GradientBoosting Model with the highest recall test (79%) and train (80%), stability compared to other models. RandomizedSearch CV and Learning Curve analysis are utilized to determine the optimal hyperparameters for the GradientBoosting model in order to enhance the model's performance :
 
-## 4. **Model Selection**: 🥇<br>
+## 3. **Model Selection**: 🥇<br>
 
 ### Model Results
 | Model Name | Recall Train | Recall Test | AUC Train | AUC Test |
@@ -54,7 +54,7 @@ We discovered that the GradientBoosting Model with the highest recall test (79%)
 | warm_start | False |
 
 
-## 5. **Model After Hyperparameter Tuning**: 🚀
+## 4. **Model After Hyperparameter Tuning**: 🚀
 
 The improved recall of our GradientBoosting Model as a result of hyperparameter tuning corresponds to a reduction in the number of incorrectly predicted candidates and training cost loss.
 
