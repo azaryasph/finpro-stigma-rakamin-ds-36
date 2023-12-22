@@ -1,7 +1,7 @@
 # FINAL PROJECT STIGMA
 
-Dataset yang kami gunakan pada Final Project ini berasal dari Kaggle yang berjudul HR Analytics Job Change of Data Scientists 
-<br>Link Dataset : https://www.kaggle.com/datasets/arashnic/hr-analytics-job-change-of-data-scientists/data
+The HR Analytics Job Change of Data Scientists dataset utilized in this Final Project was obtained from Kaggle. 
+<br>Dataset's Link : https://www.kaggle.com/datasets/arashnic/hr-analytics-job-change-of-data-scientists/data
 
 ## 📚 Installation
 
@@ -45,16 +45,16 @@ jupyter notebook Final_Project_STIGMA.ipynb
 
 
 ## Problem
-Masalah utama perusahaan dari dataset ini adalah Perusahaan Mengadakan Training secara gratis terhadap kandidat Data Scientist yang akan bekerja di perusahaannya setelah training, namun setelah diberikan training gratis dari total 19,158 kandidat, 4,777(24.9%)kandidat tidak melanjutkan bekerja di perusahaan setelah training, yang menyebabkan perusahaan rugi biaya training dan waktu.
+The primary issue identified in this dataset pertains to the company's provision of complimentary training for Data Scientist candidates who commit to commencing employment with the organization after their training. However, of the 19,158 candidates who received this training, 4,777 (24.9%) did not persist in their employment with the company, resulting in the company incurring training costs and time losses.
 
 ## 🎯 Goals 
-Maka dari itu kami disini Tim STIGMA bertujuan untuk mengurangi Training cost
+As a result, the STIGMA Team strives to reduce turnover, which reduces training cost loss.
 
 ## 🏁 Obective 
-Objektif kami membuat model prediktif machine learning yang dapat memprediksi kandidat karakteristik kandidat seperti apa yang cenederung keluar dari perusahaan setelah diberikan training.
+Our objective is to develop a machine learning predictive model that can predict which candidate characteristics are likely to leave the company after training.
 
 ## 🧩 Business Metrics 
-Bisnis metrics yang kami gunakan adalah Turnover Rate(Main metrics) dan Training Cost Lost (Secondary Metrics).
+Turnover rate and training cost lost are the business metrics that we utilize as primary and secondary metrics, respectively.
 <br>
 <br>
 
@@ -197,13 +197,15 @@ This project requires Python and the following Python libraries installed:
 - Scipy
 - Sklearn
 - Imbalanced-learn
+- xgboost
+- shap
 
 If you don't have Python installed yet, it's recommended that you install [the Anaconda distribution](https://www.anaconda.com/distribution/) of Python, which already has the above packages and more included.
 
 To install the Python libraries, you can use pip:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scipy sklearn imbalanced-learn
+pip install numpy pandas matplotlib seaborn scipy sklearn imbalanced-learn xgboost shap
 ```
 To run the Jupyter notebook, you also need to have Jupyter installed. If you installed Python using Anaconda, you already have Jupyter installed. If not, you can install it using pip:
 ```bash
